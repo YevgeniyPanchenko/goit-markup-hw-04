@@ -471,6 +471,7 @@ ul {
 }
 .footer-link {
   display: inline-block;
+  align-items: center;
   margin-left: 70px;
   padding-top: 0;
 }
@@ -490,4 +491,8 @@ ul {
   list-style: none;
   justify-content: space-between;
   margin-right: 32px;
+}
+.footer-test {
+  display: flex;
+  align-items: baseline;
 }
