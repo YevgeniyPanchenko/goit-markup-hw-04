@@ -85,8 +85,7 @@ ul {
   text-decoration: none;
 
   display: inline-block;
-  padding: 24px auto;
-  padding-right: 95px;
+  margin-right: 95px;
 }
 .header-logo {
   color: #212121;
@@ -377,6 +376,8 @@ ul {
 .item .button-title:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  background-color: #2196f3;
+  color: var(--white-color);
 }
 .project {
   list-style: none;
@@ -400,11 +401,11 @@ ul {
 .project .item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-.shadow:hover,
+/* .shadow:hover,
 .shadow:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 .subtitle-padding {
   padding: 20px 24px;
 }
@@ -425,7 +426,6 @@ ul {
 .footer-background {
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
   background-color: #2f303a;
   padding-bottom: 60px;
   padding-top: 60px;
@@ -495,4 +495,7 @@ ul {
 .footer-test {
   display: flex;
   align-items: baseline;
+}
+.footer-link-list .soc-list .social {
+  fill: var(--white-color);
 }
